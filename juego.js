@@ -1,1 +1,53 @@
-var Titulo = 
+window.onload = function() {
+  document.body.append(titulo);
+  document.body.append(preguntas);
+  document.body.append(pregunta1);
+  document.body.append(pregunta2);
+  document.body.append(pregunta3);
+  document.body.append(pregunta4);
+  document.body.append(respuesta1de1);
+  document.body.append(respuesta2de1);
+  document.body.append(respuesta3de1);
+  document.body.append(respuesta4de1);
+  document.body.append(respuestasDe1);
+  document.body.append(boton);
+  document.body.append(pregunta4);
+  document.body.append(pregunta4);
+};
+
+
+var titulo = document.createElement('h1');
+var textoTitulo = document.createTextNode('Hola');
+var preguntas = document.createElement('ul');
+var pregunta1 = document.createElement('li');
+var pregunta2 = document.createElement('li');
+var pregunta3 = document.createElement('li');
+var pregunta4 = document.createElement('li');
+var boton = document.createElement('button');
+var texto1 = document.createTextNode('Hola');
+var texto2 = document.createTextNode('Hola');
+var texto3 = document.createTextNode('Hola');
+var texto4 = document.createTextNode('Hola');
+var respuestasDe1 = document.createElement('ul');
+var respuesta1de1 = document.createElement('li');
+var respuesta2de1 = document.createElement('li');
+var respuesta3de1 = document.createElement('li');
+var respuesta4de1 = document.createElement('li');
+
+preguntas.append(pregunta1);
+preguntas.append(pregunta2);
+preguntas.append(pregunta3);
+preguntas.append(pregunta4);
+pregunta1.append(boton);
+boton.append(texto2);
+titulo.append(textoTitulo);
+pregunta1.append(respuestasDe1);
+respuestasDe1.append(respuesta1de1);
+respuestasDe1.append(respuesta2de1);
+respuestasDe1.append(respuesta3de1);
+respuestasDe1.append(respuesta4de1);
+respuesta1de1.append(texto3);
+respuesta2de1.append(texto4);
+respuesta3de1.append(texto1);
+respuesta4de1.append(texto1);
+console.log(pregunta1);
