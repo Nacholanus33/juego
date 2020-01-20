@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: gray;
+  font-family: sans-serif;
+  text-decoration: underline;
+  font-weight: bolder;
+  background-color: white;
+}
+
+ul {
+  color: black;
+  font-weight: bold;
+  background-color: white;
+}
+ul li {
+  color: inherit;
+  font-style: italic;
+  background-color: white;
+}
